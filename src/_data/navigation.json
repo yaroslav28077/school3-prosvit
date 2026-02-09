@@ -1,0 +1,78 @@
+[
+    {
+        "label": "Про Гімназію",
+        "url": "/about/history/",
+        "children": [
+            {
+                "label": "Історія закладу",
+                "url": "/about/history/"
+            },
+            {
+                "label": "Адміністрація",
+                "url": "/about/administration/"
+            },
+            {
+                "label": "Атестація педагогічних працівників",
+                "url": "/about/attestation/"
+            },
+            {
+                "label": "Публічна інформація",
+                "url": "/about/public-info/"
+            }
+        ]
+    },
+    {
+        "label": "Учням",
+        "url": "/students/study/",
+        "children": [
+            {
+                "label": "Навчальний процес",
+                "url": "/students/study/"
+            },
+            {
+                "label": "Позакласна робота",
+                "url": "/students/extra/"
+            },
+            {
+                "label": "Безпека учня",
+                "url": "/students/safety/"
+            }
+        ]
+    },
+    {
+        "label": "Батькам",
+        "url": "/parents/admission/",
+        "children": [
+            {
+                "label": "Умови вступу",
+                "url": "/parents/admission/"
+            },
+            {
+                "label": "Харчування",
+                "url": "/parents/nutrition/"
+            },
+            {
+                "label": "Безпека",
+                "url": "/parents/safety/"
+            },
+            {
+                "label": "Поради психолога",
+                "url": "/parents/psychologist/"
+            },
+            {
+                "label": "Протидія булінгу",
+                "url": "/parents/bullying/"
+            }
+        ]
+    },
+    {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/gymnasium.prosvit/",
+        "children": []
+    },
+    {
+        "label": "Контакти",
+        "url": "#contacts",
+        "children": []
+    }
+]
