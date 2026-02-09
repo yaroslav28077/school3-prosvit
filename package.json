@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "description": "Website for Gymnasium Prosvit",
     "scripts": {
-        "build": "eleventy && npx tailwindcss -i ./src/css/styles.css -o ./_site/css/styles.css --minify",
+        "build": "npx @11ty/eleventy && npx tailwindcss -i ./src/css/styles.css -o ./_site/css/styles.css --minify",
         "watch": "npx tailwindcss -i ./src/css/styles.css -o ./_site/css/styles.css --watch",
-        "serve": "eleventy --serve",
+        "serve": "npx @11ty/eleventy --serve",
         "dev": "npm-run-all --parallel serve watch"
     },
     "keywords": [],
