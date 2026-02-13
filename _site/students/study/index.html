@@ -155,12 +155,27 @@
                                 Атестація педагогічних працівників
                             </a>
                             
-                            <a href="/about/public-info/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
+                            <a href="/about/mobilization/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
                                 <span class="w-1.5 h-1.5 rounded-full bg-gray-300 mr-2 group-hover/item:bg-accent transition-colors"></span>
-                                Публічна інформація
+                                Мобілізаційний план
+                            </a>
+                            
+                            <a href="/about/internal-rules/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
+                                <span class="w-1.5 h-1.5 rounded-full bg-gray-300 mr-2 group-hover/item:bg-accent transition-colors"></span>
+                                Правила внутрішнього трудового розпорядку
                             </a>
                             
                         </div>
+                        
+                    </div>
+                    
+                    <div class="relative group" x-data="{ open: false }">
+                        
+                        <a href="/about/public-info/" class="flex items-center py-2 text-sm font-bold text-gray-700 hover:text-primary transition-colors uppercase tracking-wide focus:outline-none relative">
+                            Публічна інформація
+                            <!-- Underline Effect -->
+                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
+                        </a>
                         
                     </div>
                     
@@ -264,17 +279,22 @@
                                 Безпека
                             </a>
                             
-                            <a href="/parents/psychologist/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
-                                <span class="w-1.5 h-1.5 rounded-full bg-gray-300 mr-2 group-hover/item:bg-accent transition-colors"></span>
-                                Поради психолога
-                            </a>
-                            
                             <a href="/parents/bullying/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
                                 <span class="w-1.5 h-1.5 rounded-full bg-gray-300 mr-2 group-hover/item:bg-accent transition-colors"></span>
                                 Протидія булінгу
                             </a>
                             
                         </div>
+                        
+                    </div>
+                    
+                    <div class="relative group" x-data="{ open: false }">
+                        
+                        <a href="/parents/psychologist/" class="flex items-center py-2 text-sm font-bold text-gray-700 hover:text-primary transition-colors uppercase tracking-wide focus:outline-none relative">
+                            Поради психолога
+                            <!-- Underline Effect -->
+                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
+                        </a>
                         
                     </div>
                     
@@ -329,7 +349,7 @@
                 
                 <div x-data="{ subOpen: false }" class="border-b border-gray-100 last:border-0 pb-2">
                     <div class="flex justify-between items-center">
-                        <a href="/about/history/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(4 > 0) { $event.preventDefault(); subOpen = !subOpen }">
+                        <a href="/about/history/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(5 > 0) { $event.preventDefault(); subOpen = !subOpen }">
                             Про Гімназію
                         </a>
                         
@@ -354,11 +374,26 @@
                             Атестація педагогічних працівників
                         </a>
                         
-                        <a href="/about/public-info/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
+                        <a href="/about/mobilization/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
+                            Мобілізаційний план
+                        </a>
+                        
+                        <a href="/about/internal-rules/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
+                            Правила внутрішнього трудового розпорядку
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div x-data="{ subOpen: false }" class="border-b border-gray-100 last:border-0 pb-2">
+                    <div class="flex justify-between items-center">
+                        <a href="/about/public-info/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(0 > 0) { $event.preventDefault(); subOpen = !subOpen }">
                             Публічна інформація
                         </a>
                         
                     </div>
+                    
                     
                 </div>
                 
@@ -395,7 +430,7 @@
                 
                 <div x-data="{ subOpen: false }" class="border-b border-gray-100 last:border-0 pb-2">
                     <div class="flex justify-between items-center">
-                        <a href="/parents/admission/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(5 > 0) { $event.preventDefault(); subOpen = !subOpen }">
+                        <a href="/parents/admission/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(4 > 0) { $event.preventDefault(); subOpen = !subOpen }">
                             Батькам
                         </a>
                         
@@ -420,15 +455,22 @@
                             Безпека
                         </a>
                         
-                        <a href="/parents/psychologist/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
-                            Поради психолога
-                        </a>
-                        
                         <a href="/parents/bullying/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
                             Протидія булінгу
                         </a>
                         
                     </div>
+                    
+                </div>
+                
+                <div x-data="{ subOpen: false }" class="border-b border-gray-100 last:border-0 pb-2">
+                    <div class="flex justify-between items-center">
+                        <a href="/parents/psychologist/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(0 > 0) { $event.preventDefault(); subOpen = !subOpen }">
+                            Поради психолога
+                        </a>
+                        
+                    </div>
+                    
                     
                 </div>
                 
@@ -693,7 +735,7 @@
             </div>
             
             <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-                <p>&copy; 2026 Гімназія "ПРОСВІТ". Всі права захищені.</p>
+                <p>&copy; 2026 Гімназія "ПРОСВІТ" ЛМР. Всі права захищені.</p>
             </div>
         </div>
     </footer>

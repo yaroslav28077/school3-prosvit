@@ -16,10 +16,19 @@
                 "url": "/about/attestation/"
             },
             {
-                "label": "Публічна інформація",
-                "url": "/about/public-info/"
+                "label": "Мобілізаційний план",
+                "url": "/about/mobilization/"
+            },
+            {
+                "label": "Правила внутрішнього трудового розпорядку",
+                "url": "/about/internal-rules/"
             }
         ]
+    },
+    {
+        "label": "Публічна інформація",
+        "url": "/about/public-info/",
+        "children": []
     },
     {
         "label": "Учням",
@@ -56,14 +65,15 @@
                 "url": "/parents/safety/"
             },
             {
-                "label": "Поради психолога",
-                "url": "/parents/psychologist/"
-            },
-            {
                 "label": "Протидія булінгу",
                 "url": "/parents/bullying/"
             }
         ]
+    },
+    {
+        "label": "Поради психолога",
+        "url": "/parents/psychologist/",
+        "children": []
     },
     {
         "label": "Facebook",

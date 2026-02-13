@@ -155,12 +155,27 @@
                                 Атестація педагогічних працівників
                             </a>
                             
-                            <a href="/about/public-info/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
+                            <a href="/about/mobilization/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
                                 <span class="w-1.5 h-1.5 rounded-full bg-gray-300 mr-2 group-hover/item:bg-accent transition-colors"></span>
-                                Публічна інформація
+                                Мобілізаційний план
+                            </a>
+                            
+                            <a href="/about/internal-rules/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
+                                <span class="w-1.5 h-1.5 rounded-full bg-gray-300 mr-2 group-hover/item:bg-accent transition-colors"></span>
+                                Правила внутрішнього трудового розпорядку
                             </a>
                             
                         </div>
+                        
+                    </div>
+                    
+                    <div class="relative group" x-data="{ open: false }">
+                        
+                        <a href="/about/public-info/" class="flex items-center py-2 text-sm font-bold text-gray-700 hover:text-primary transition-colors uppercase tracking-wide focus:outline-none relative">
+                            Публічна інформація
+                            <!-- Underline Effect -->
+                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
+                        </a>
                         
                     </div>
                     
@@ -264,17 +279,22 @@
                                 Безпека
                             </a>
                             
-                            <a href="/parents/psychologist/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
-                                <span class="w-1.5 h-1.5 rounded-full bg-gray-300 mr-2 group-hover/item:bg-accent transition-colors"></span>
-                                Поради психолога
-                            </a>
-                            
                             <a href="/parents/bullying/" class="block px-6 py-2.5 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary transition-colors flex items-center group/item">
                                 <span class="w-1.5 h-1.5 rounded-full bg-gray-300 mr-2 group-hover/item:bg-accent transition-colors"></span>
                                 Протидія булінгу
                             </a>
                             
                         </div>
+                        
+                    </div>
+                    
+                    <div class="relative group" x-data="{ open: false }">
+                        
+                        <a href="/parents/psychologist/" class="flex items-center py-2 text-sm font-bold text-gray-700 hover:text-primary transition-colors uppercase tracking-wide focus:outline-none relative">
+                            Поради психолога
+                            <!-- Underline Effect -->
+                            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
+                        </a>
                         
                     </div>
                     
@@ -329,7 +349,7 @@
                 
                 <div x-data="{ subOpen: false }" class="border-b border-gray-100 last:border-0 pb-2">
                     <div class="flex justify-between items-center">
-                        <a href="/about/history/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(4 > 0) { $event.preventDefault(); subOpen = !subOpen }">
+                        <a href="/about/history/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(5 > 0) { $event.preventDefault(); subOpen = !subOpen }">
                             Про Гімназію
                         </a>
                         
@@ -354,11 +374,26 @@
                             Атестація педагогічних працівників
                         </a>
                         
-                        <a href="/about/public-info/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
+                        <a href="/about/mobilization/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
+                            Мобілізаційний план
+                        </a>
+                        
+                        <a href="/about/internal-rules/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
+                            Правила внутрішнього трудового розпорядку
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div x-data="{ subOpen: false }" class="border-b border-gray-100 last:border-0 pb-2">
+                    <div class="flex justify-between items-center">
+                        <a href="/about/public-info/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(0 > 0) { $event.preventDefault(); subOpen = !subOpen }">
                             Публічна інформація
                         </a>
                         
                     </div>
+                    
                     
                 </div>
                 
@@ -395,7 +430,7 @@
                 
                 <div x-data="{ subOpen: false }" class="border-b border-gray-100 last:border-0 pb-2">
                     <div class="flex justify-between items-center">
-                        <a href="/parents/admission/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(5 > 0) { $event.preventDefault(); subOpen = !subOpen }">
+                        <a href="/parents/admission/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(4 > 0) { $event.preventDefault(); subOpen = !subOpen }">
                             Батькам
                         </a>
                         
@@ -420,15 +455,22 @@
                             Безпека
                         </a>
                         
-                        <a href="/parents/psychologist/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
-                            Поради психолога
-                        </a>
-                        
                         <a href="/parents/bullying/" class="block py-2 text-gray-600 hover:text-primary font-medium text-sm">
                             Протидія булінгу
                         </a>
                         
                     </div>
+                    
+                </div>
+                
+                <div x-data="{ subOpen: false }" class="border-b border-gray-100 last:border-0 pb-2">
+                    <div class="flex justify-between items-center">
+                        <a href="/parents/psychologist/" class="block py-3 text-lg font-bold text-gray-800 hover:text-primary" @click="if(0 > 0) { $event.preventDefault(); subOpen = !subOpen }">
+                            Поради психолога
+                        </a>
+                        
+                    </div>
+                    
                     
                 </div>
                 
@@ -493,7 +535,7 @@
     <div class="container mx-auto px-4">
         
         <h2 class="text-2xl md:text-3xl font-heading font-bold text-gray-900 mb-8 relative inline-block">
-            📋 Установчі та нормативні документи
+            📋 Публічна інформація
             <span class="block h-1 w-full bg-accent/30 absolute bottom-0 left-0 -z-10 transform -rotate-1"></span>
         </h2>
         
@@ -545,70 +587,6 @@
                     </div>
                 </div>
             </a>
-            
-            <a href="https://drive.google.com/file/d/1QY2S0orq9NYXSHU5tdjNKkfGp3tTU6hQ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" 
-               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                        📋
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
-                            Правила внутрішнього трудового розпорядку
-                        </h3>
-                        
-                        <p class="text-sm text-gray-600">Регулювання трудових відносин у закладі</p>
-                        
-                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                            </svg>
-                            <span>Відкрити документ</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="https://drive.google.com/file/d/1N1ov0bu4KUA34saPqY2EjNS4yvTVFeAu/view?usp=sharing" target="_blank" rel="noopener noreferrer" 
-               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                        🛡️
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
-                            Мобілізаційний план
-                        </h3>
-                        
-                        <p class="text-sm text-gray-600">План дій у особливий період</p>
-                        
-                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                            </svg>
-                            <span>Відкрити документ</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-        </div>
-    </div>
-</section>
-
-                        
-                    
-                        
-                            <section class="py-12 md:py-16">
-    <div class="container mx-auto px-4">
-        
-        <h2 class="text-2xl md:text-3xl font-heading font-bold text-gray-900 mb-8 relative inline-block">
-            🎯 Стратегія та програми
-            <span class="block h-1 w-full bg-accent/30 absolute bottom-0 left-0 -z-10 transform -rotate-1"></span>
-        </h2>
-        
-        
-        <div class="grid md:grid-cols-2 gap-6">
             
             <a href="https://drive.google.com/drive/folders/11-ovMG6ZfanvkueaIpkcuSCWsEPcZyZJ?usp=sharing" target="_blank" rel="noopener noreferrer" 
                class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
@@ -702,24 +680,6 @@
                 </div>
             </a>
             
-        </div>
-    </div>
-</section>
-
-                        
-                    
-                        
-                            <section class="py-12 md:py-16">
-    <div class="container mx-auto px-4">
-        
-        <h2 class="text-2xl md:text-3xl font-heading font-bold text-gray-900 mb-8 relative inline-block">
-            👥 Структура та кадри
-            <span class="block h-1 w-full bg-accent/30 absolute bottom-0 left-0 -z-10 transform -rotate-1"></span>
-        </h2>
-        
-        
-        <div class="grid md:grid-cols-2 gap-6">
-            
             <a href="#" target="_blank" rel="noopener noreferrer" 
                class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
                 <div class="flex items-start gap-4">
@@ -742,93 +702,6 @@
                     </div>
                 </div>
             </a>
-            
-            <a href="https://drive.google.com/file/d/1D3xZIW_ICD2DdmMW4trCfYjkqthz8F7V/view?usp=sharing" target="_blank" rel="noopener noreferrer" 
-               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                        👨‍🏫
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
-                            Кадровий склад закладу
-                        </h3>
-                        
-                        <p class="text-sm text-gray-600">Інформація про педагогічний колектив</p>
-                        
-                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                            </svg>
-                            <span>Відкрити документ</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="https://drive.google.com/drive/folders/1dRW153XUu62yZZ82ZXHmqeBU2j8IBUNy?usp=sharing" target="_blank" rel="noopener noreferrer" 
-               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                        📊
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
-                            Штатний розпис
-                        </h3>
-                        
-                        <p class="text-sm text-gray-600">Штатний розпис закладу</p>
-                        
-                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                            </svg>
-                            <span>Відкрити документ</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="#" target="_blank" rel="noopener noreferrer" 
-               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                        💼
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
-                            Наявність вакантних посад
-                        </h3>
-                        
-                        <p class="text-sm text-gray-600">Інформація про вакансії (оновлюється)</p>
-                        
-                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                            </svg>
-                            <span>Відкрити документ</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-        </div>
-    </div>
-</section>
-
-                        
-                    
-                        
-                            <section class="py-12 md:py-16">
-    <div class="container mx-auto px-4">
-        
-        <h2 class="text-2xl md:text-3xl font-heading font-bold text-gray-900 mb-8 relative inline-block">
-            🏫 Ресурси та умови
-            <span class="block h-1 w-full bg-accent/30 absolute bottom-0 left-0 -z-10 transform -rotate-1"></span>
-        </h2>
-        
-        
-        <div class="grid md:grid-cols-2 gap-6">
             
             <a href="https://drive.google.com/file/d/10atKNPViiQqSnHW5cXztR7Fr3CB5zudV/view?usp=sharing" target="_blank" rel="noopener noreferrer" 
                class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
@@ -876,47 +749,6 @@
                 </div>
             </a>
             
-            <a href="https://drive.google.com/drive/folders/17PS-9-AtlifXfa3UujxTqX6_ORSdTLUf?usp=sharing" target="_blank" rel="noopener noreferrer" 
-               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-                        🔧
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
-                            Матеріально-технічне забезпечення закладу освіти
-                        </h3>
-                        
-                        <p class="text-sm text-gray-600">Обладнання та матеріальна база</p>
-                        
-                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                            </svg>
-                            <span>Відкрити документ</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-        </div>
-    </div>
-</section>
-
-                        
-                    
-                        
-                            <section class="py-12 md:py-16">
-    <div class="container mx-auto px-4">
-        
-        <h2 class="text-2xl md:text-3xl font-heading font-bold text-gray-900 mb-8 relative inline-block">
-            📊 Звітність та моніторинг
-            <span class="block h-1 w-full bg-accent/30 absolute bottom-0 left-0 -z-10 transform -rotate-1"></span>
-        </h2>
-        
-        
-        <div class="grid md:grid-cols-2 gap-6">
-            
             <a href="https://drive.google.com/file/d/1Yde8JT73eApzSvxU89t9KNB76Q8W0ozF/view?usp=sharing" target="_blank" rel="noopener noreferrer" 
                class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
                 <div class="flex items-start gap-4">
@@ -963,6 +795,75 @@
                 </div>
             </a>
             
+            <a href="https://drive.google.com/drive/folders/17PS-9-AtlifXfa3UujxTqX6_ORSdTLUf?usp=sharing" target="_blank" rel="noopener noreferrer" 
+               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        🔧
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
+                            Матеріально-технічне забезпечення закладу освіти
+                        </h3>
+                        
+                        <p class="text-sm text-gray-600">Обладнання та матеріальна база</p>
+                        
+                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                            </svg>
+                            <span>Відкрити документ</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="https://drive.google.com/drive/folders/1dRW153XUu62yZZ82ZXHmqeBU2j8IBUNy?usp=sharing" target="_blank" rel="noopener noreferrer" 
+               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        📊
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
+                            Штатний розпис
+                        </h3>
+                        
+                        <p class="text-sm text-gray-600">Штатний розпис закладу</p>
+                        
+                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                            </svg>
+                            <span>Відкрити документ</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="https://drive.google.com/file/d/1D3xZIW_ICD2DdmMW4trCfYjkqthz8F7V/view?usp=sharing" target="_blank" rel="noopener noreferrer" 
+               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        👨‍🏫
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
+                            Кадровий склад закладу
+                        </h3>
+                        
+                        <p class="text-sm text-gray-600">Інформація про педагогічний колектив</p>
+                        
+                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                            </svg>
+                            <span>Відкрити документ</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
             <a href="https://drive.google.com/drive/folders/1T0Ld0ML_VAJI7kt5oIsabpcpQxHqpyZJ?usp=sharing" target="_blank" rel="noopener noreferrer" 
                class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
                 <div class="flex items-start gap-4">
@@ -971,7 +872,7 @@
                     </div>
                     <div class="flex-1">
                         <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
-                            Кошторис та фінансовий звіт
+                            Кошторис та фінансовий звіт про надходження та використання всіх отриманих коштів
                         </h3>
                         
                         <p class="text-sm text-gray-600">Фінансова звітність та використання коштів</p>
@@ -986,23 +887,51 @@
                 </div>
             </a>
             
-        </div>
-    </div>
-</section>
-
+            <a href="#" target="_blank" rel="noopener noreferrer" 
+               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        💼
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
+                            Наявність вакантних посад
+                        </h3>
                         
-                    
+                        <p class="text-sm text-gray-600">Інформація про вакансії (оновлюється)</p>
                         
-                            <section class="py-12 md:py-16">
-    <div class="container mx-auto px-4">
-        
-        <h2 class="text-2xl md:text-3xl font-heading font-bold text-gray-900 mb-8 relative inline-block">
-            📌 Інша інформація
-            <span class="block h-1 w-full bg-accent/30 absolute bottom-0 left-0 -z-10 transform -rotate-1"></span>
-        </h2>
-        
-        
-        <div class="grid md:grid-cols-2 gap-6">
+                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                            </svg>
+                            <span>Відкрити документ</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="#" target="_blank" rel="noopener noreferrer" 
+               class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-100 to-teal-50 rounded-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        ✅
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
+                            Критерії оцінювання
+                        </h3>
+                        
+                        <p class="text-sm text-gray-600">Інформація готується</p>
+                        
+                        <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                            </svg>
+                            <span>Відкрити документ</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
             
             <a href="https://drive.google.com/drive/folders/1CispEDu53vqxhbltCAKEiBjeXr421NES?usp=sharing" target="_blank" rel="noopener noreferrer" 
                class="group bg-white p-6 rounded-xl shadow-md border border-gray-100 hover:shadow-xl hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
@@ -1012,10 +941,10 @@
                     </div>
                     <div class="flex-1">
                         <h3 class="font-bold text-gray-900 mb-1 group-hover:text-accent transition-colors">
-                            Додаткові матеріали
+                            Інша інформація що оприлюднюється за рішенням закладу освіти або на вимогу законодавства
                         </h3>
                         
-                        <p class="text-sm text-gray-600">Інформація, що оприлюднюється за рішенням закладу</p>
+                        <p class="text-sm text-gray-600">Додаткові матеріали</p>
                         
                         <div class="flex items-center gap-2 mt-2 text-xs text-teal-600 font-medium">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1036,16 +965,6 @@
                     
                     
                     
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
                     
                         
                     
@@ -1121,7 +1040,7 @@
             </div>
             
             <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-                <p>&copy; 2026 Гімназія "ПРОСВІТ". Всі права захищені.</p>
+                <p>&copy; 2026 Гімназія "ПРОСВІТ" ЛМР. Всі права захищені.</p>
             </div>
         </div>
     </footer>
