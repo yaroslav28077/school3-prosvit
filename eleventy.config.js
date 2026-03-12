@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
     // Passthrough Copy
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/admin");
+    eleventyConfig.addPassthroughCopy("src/robots.txt");
 
     // Watch targets
     eleventyConfig.addWatchTarget("./src/css/");
@@ -34,3 +35,8 @@ module.exports = function (eleventyConfig) {
         dataTemplateEngine: "njk"
     };
 };
+
+
+
+
+// Trigger rebuild user content

@@ -8,27 +8,26 @@
                 "url": "/about/history/"
             },
             {
+                "label": "Паспорт закладу",
+                "url": "/about/passport/"
+            },
+            {
                 "label": "Адміністрація",
                 "url": "/about/administration/"
             },
             {
-                "label": "Атестація педагогічних працівників",
-                "url": "/about/attestation/"
+                "label": "Публічна інформація",
+                "url": "/about/public-info/"
             },
             {
                 "label": "Мобілізаційний план",
                 "url": "/about/mobilization/"
             },
             {
-                "label": "Правила внутрішнього трудового розпорядку",
+                "label": "Правила внутрішнього розпорядку",
                 "url": "/about/internal-rules/"
             }
         ]
-    },
-    {
-        "label": "Публічна інформація",
-        "url": "/about/public-info/",
-        "children": []
     },
     {
         "label": "Учням",
@@ -39,12 +38,36 @@
                 "url": "/students/study/"
             },
             {
+                "label": "Розклад (Диспетчер)",
+                "url": "/students/dispatcher/"
+            },
+            {
+                "label": "Завдання для дисциплін",
+                "url": "/students/assignments/"
+            },
+            {
                 "label": "Позакласна робота",
                 "url": "/students/extra/"
             },
             {
                 "label": "Безпека учня",
                 "url": "/students/safety/"
+            },
+            {
+                "label": "Бібліотека",
+                "url": "/students/library/"
+            },
+            {
+                "label": "Учнівське самоврядування",
+                "url": "/students/self-government/"
+            },
+            {
+                "label": "Волонтерство",
+                "url": "/students/volunteering/"
+            },
+            {
+                "label": "Профорієнтація",
+                "url": "/students/career-guidance/"
             }
         ]
     },
@@ -67,13 +90,124 @@
             {
                 "label": "Протидія булінгу",
                 "url": "/parents/bullying/"
+            },
+            {
+                "label": "Поради психолога",
+                "url": "/parents/psychologist/"
             }
         ]
     },
     {
-        "label": "Поради психолога",
-        "url": "/parents/psychologist/",
-        "children": []
+        "label": "Освітнє середовище",
+        "url": "/environment/antibullying/",
+        "children": [
+            {
+                "label": "Антибулінгова програма",
+                "url": "/environment/antibullying/"
+            },
+            {
+                "label": "Насильництво",
+                "url": "/environment/violence/"
+            },
+            {
+                "label": "Жорстоке поводження з тваринами",
+                "url": "/environment/animal-cruelty/"
+            },
+            {
+                "label": "Гендерна рівність",
+                "url": "/environment/gender-equality/"
+            },
+            {
+                "label": "Освітній інспектор",
+                "url": "/environment/inspector/"
+            },
+            {
+                "label": "Кібербезпека",
+                "url": "/environment/cybersecurity/"
+            },
+            {
+                "label": "Бібліотечний фонд",
+                "url": "/environment/library-fund/"
+            },
+            {
+                "label": "Правила для учнів",
+                "url": "/environment/student-rules/"
+            },
+            {
+                "label": "Пропускний режим",
+                "url": "/environment/access-control/"
+            }
+        ]
+    },
+    {
+        "label": "Оцінювання",
+        "url": "/about/assessment/",
+        "children": [
+            {
+                "label": "Критерії оцінювання",
+                "url": "/about/assessment/"
+            },
+            {
+                "label": "Моніторинг досягнень",
+                "url": "/about/monitoring/"
+            }
+        ]
+    },
+    {
+        "label": "Педагогам",
+        "url": "/staff/academic-integrity/",
+        "children": [
+            {
+                "label": "Академічна доброчесність",
+                "url": "/staff/academic-integrity/"
+            },
+            {
+                "label": "Атестація",
+                "url": "/about/attestation/"
+            },
+            {
+                "label": "Сертифікація",
+                "url": "/staff/certification/"
+            },
+            {
+                "label": "Підвищення кваліфікації",
+                "url": "/staff/professional-development/"
+            }
+        ]
+    },
+    {
+        "label": "Управління",
+        "url": "/management/processes/",
+        "children": [
+            {
+                "label": "Управлінський процес",
+                "url": "/management/processes/"
+            },
+            {
+                "label": "Мобілізаційний план",
+                "url": "/about/mobilization/"
+            },
+            {
+                "label": "Академічна доброчесність",
+                "url": "/management/academic-integrity/"
+            },
+            {
+                "label": "Безбар'єрність",
+                "url": "/management/accessibility/"
+            },
+            {
+                "label": "Планування",
+                "url": "/management/planning/"
+            },
+            {
+                "label": "Кадрова політика",
+                "url": "/management/hr-policy/"
+            },
+            {
+                "label": "Положення про нагородження",
+                "url": "/management/awards/"
+            }
+        ]
     },
     {
         "label": "Facebook",

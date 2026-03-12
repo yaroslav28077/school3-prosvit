@@ -85,12 +85,12 @@ blocks:
       - title: Наявність вакантних посад
         url: "#"
         icon: "💼"
-        description: Інформація про вакансії (оновлюється)
+        description: Вакантних посад немає
 
       - title: Критерії оцінювання
-        url: "#"
+        url: "/about/assessment/"
         icon: "✅"
-        description: Інформація готується
+        description: Рекомендації та критерії (Наказ МОН № 1093)
 
       - title: Інша інформація що оприлюднюється за рішенням закладу освіти або на вимогу законодавства
         url: https://drive.google.com/drive/folders/1CispEDu53vqxhbltCAKEiBjeXr421NES?usp=sharing
